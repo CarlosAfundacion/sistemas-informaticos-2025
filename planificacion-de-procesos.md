@@ -125,7 +125,7 @@ Si no te queda claro, puedes ver este [vídeo](https://www.youtube.com/watch?v=m
 5. **t=6–8:** retoma **P3** (le quedaban 2 ms) → termina.
 6. **t=8–12:** ejecuta **P2** (queda completo).
 
-**Orden de ejecución:** P1 → (preempción) → P3 → P1 → P2
+**Orden de ejecución:** P1 → (preempción) → P1 → P3 → P2
 
 
 
