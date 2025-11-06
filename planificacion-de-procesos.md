@@ -120,9 +120,9 @@ Si no te queda claro, puedes ver este [vídeo](https://www.youtube.com/watch?v=m
 3. **t=4:** llega **P3(2)**.
 
    * Compara: P1(restante=2), P2(4), P3(2).
-   * Hay empate entre P1 y P3, pero **P3 acaba de llegar** → se **interrumpe (preempción)** a P1 y entra P3.
-4. **t=4–6:** ejecuta **P3** → termina.
-5. **t=6–8:** retoma **P1** (le quedaban 2 ms) → termina.
+   * Hay empate entre P1 y P3, pero **P3 acaba de llegar** → sigue P1.
+4. **t=4–6:** ejecuta **P1** → termina.
+5. **t=6–8:** retoma **P3** (le quedaban 2 ms) → termina.
 6. **t=8–12:** ejecuta **P2** (queda completo).
 
 **Orden de ejecución:** P1 → (preempción) → P3 → P1 → P2
