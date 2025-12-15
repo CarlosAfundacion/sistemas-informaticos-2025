@@ -26,11 +26,11 @@ Solo necesitáis recordar dos fórmulas:
 
 1.  **Para calcular Subredes (cuántos trozos de pizza):**
     $$2^S \ge \text{número de subredes necesarias}$$
-    *(Donde $S$ son los bits que "robamos" a la parte de host).*
+    *(Donde <sup>S</sup> son los bits que "robamos" a la parte de host).*
 
 2.  **Para calcular Hosts (cuántos ordenadores caben):**
     $$2^H - 2 \ge \text{número de hosts necesarios}$$
-    *(Donde $H$ son los bits que sobran. El $-2$ es porque la primera IP es la Red y la última el Broadcast).*
+    *(Donde <sup>H</sup> son los bits que sobran. El -2  es porque la primera IP es la Red y la última el Broadcast).*
 
 ---
 
