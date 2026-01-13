@@ -104,4 +104,96 @@ Un proveedor de servicios necesita asignar bloques grandes a sus clientes corpor
 | | | / | | | | |
 | | | / | | | | |
 
+## EJERCICIOS NO EVALUABLES PARA PRACTICAR:
+
+Perfecto, el formato que usas es **muy bueno didácticamente** (realista, progresivo y muy claro).
+Te propongo **3 ejercicios nuevos** que **complementan** los que ya tienes, subiendo dificultad de forma natural y **cubriendo huecos típicos**:
+
+* uno de **Clase C con VLSM fino**
+* uno de **Clase B con salto claro en el 3er octeto**
+* uno de **Clase A donde *es obligatorio* que haya salto en el 2º octeto** (como el que comentábamos)
+
+Mantengo **exactamente tu estilo y estructura**, listos para copiar/pegar.
+
+---
+
+# Práctica de VLSM (Ejercicios Propuestos)
+
+---
+
+### Ejercicio 6: Empresa de Servicios Gestionados (Clase C)
+
+Una empresa de servicios IT ofrece conectividad segmentada a distintos departamentos y necesita optimizar al máximo su red.
+
+* **Red Base:** `192.168.50.0/24`
+
+**Requisitos (Desordenados):**
+
+1. **Departamento Técnico:** 70 hosts.
+2. **Administración:** 20 hosts.
+3. **Sala de Formación:** 30 hosts.
+4. **Gestión de Impresoras:** 6 hosts.
+
+**Tabla de Resultados:**
+
+| Nombre Subred | Hosts Requeridos | Máscara (CIDR) | Dirección de Red | Primer IP | Última IP | Broadcast |
+| :------------ | :--------------- | :------------- | :--------------- | :-------- | :-------- | :-------- |
+|               |                  | /              |                  |           |           |           |
+|               |                  | /              |                  |           |           |           |
+|               |                  | /              |                  |           |           |           |
+|               |                  | /              |                  |           |           |           |
+
+
+
+---
+
+### Ejercicio 7: Hospital Comarcal (Clase B)
+
+Un hospital necesita reorganizar su red interna separando servicios críticos, personal y dispositivos médicos.
+El direccionamiento debe realizarse **trabajando principalmente sobre el tercer octeto**.
+
+* **Red Base:** `172.20.0.0/16`
+
+**Requisitos (Desordenados):**
+
+1. **Dispositivos Médicos (IoT):** 800 hosts.
+2. **Personal Sanitario:** 1500 hosts.
+3. **Administración y Gestión:** 400 hosts.
+4. **Zona Wi-Fi Pacientes:** 300 hosts.
+
+**Tabla de Resultados:**
+
+| Nombre Subred | Hosts Requeridos | Máscara (CIDR) | Dirección de Red | Primer IP | Última IP | Broadcast |
+| :------------ | :--------------- | :------------- | :--------------- | :-------- | :-------- | :-------- |
+|               |                  | /              |                  |           |           |           |
+|               |                  | /              |                  |           |           |           |
+|               |                  | /              |                  |           |           |           |
+|               |                  | /              |                  |           |           |           |
+
+
+
+---
+
+### Ejercicio 8: Proveedor Cloud Regional (Clase A – salto en 2º octeto)
+
+Un proveedor de servicios cloud necesita asignar grandes bloques de direcciones IP a distintos clientes empresariales.
+El direccionamiento debe realizarse mediante **VLSM** y **al menos una de las subredes debe provocar un salto en el segundo octeto**.
+
+* **Red Base:** `10.0.0.0/8`
+
+**Requisitos (Desordenados):**
+
+1. **Cliente Enterprise:** 60.000 hosts.
+2. **Cliente Corporativo:** 20.000 hosts.
+3. **Infraestructura Interna:** 5.000 hosts.
+4. **Servicios de Monitorización:** 500 hosts.
+
+**Tabla de Resultados:**
+
+| Nombre Subred | Hosts Requeridos | Máscara (CIDR) | Dirección de Red | Primer IP | Última IP | Broadcast |
+| :------------ | :--------------- | :------------- | :--------------- | :-------- | :-------- | :-------- |
+|               |                  | /              |                  |           |           |           |
+|               |                  | /              |                  |           |           |           |
+|               |                  | /              |                  |           |           |           |
+|               |                  | /              |                  |           |           |           |
 
