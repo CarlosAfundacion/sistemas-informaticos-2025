@@ -104,21 +104,6 @@ Un proveedor de servicios necesita asignar bloques grandes a sus clientes corpor
 | | | / | | | | |
 | | | / | | | | |
 
-## EJERCICIOS NO EVALUABLES PARA PRACTICAR:
-
-Perfecto, el formato que usas es **muy bueno didácticamente** (realista, progresivo y muy claro).
-Te propongo **3 ejercicios nuevos** que **complementan** los que ya tienes, subiendo dificultad de forma natural y **cubriendo huecos típicos**:
-
-* uno de **Clase C con VLSM fino**
-* uno de **Clase B con salto claro en el 3er octeto**
-* uno de **Clase A donde *es obligatorio* que haya salto en el 2º octeto** (como el que comentábamos)
-
-Mantengo **exactamente tu estilo y estructura**, listos para copiar/pegar.
-
----
-
-# Práctica de VLSM (Ejercicios Propuestos)
-
 ---
 
 ### Ejercicio 6: Empresa de Servicios Gestionados (Clase C)
