@@ -106,6 +106,9 @@ Un proveedor de servicios necesita asignar bloques grandes a sus clientes corpor
 
 ---
 
+## EJERCICIOS NO EVALUABLES
+
+---
 ### Ejercicio 6: Empresa de Servicios Gestionados (Clase C)
 
 Una empresa de servicios IT ofrece conectividad segmentada a distintos departamentos y necesita optimizar al máximo su red.
