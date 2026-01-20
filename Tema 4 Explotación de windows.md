@@ -426,7 +426,7 @@ Directorio actual/padre:
 
 ### 10.3 Comodines
 
-* * cualquier cadena
+* \* cualquier cadena
 * ? un carácter
 
 Ejemplos:
@@ -542,8 +542,8 @@ Comprobar:
 
 ### 12.1 Redirección
 
-* > crea/sobrescribe.
-* > > añade al final.
+* \> crea/sobrescribe.
+* \> > añade al final.
 
 Ejemplos:
 
@@ -552,7 +552,7 @@ Ejemplos:
 
 ### 12.2 Tuberías
 
-* | envía la salida de un comando como entrada de otro.
+* \| envía la salida de un comando como entrada de otro.
 
 Filtros:
 
