@@ -97,7 +97,7 @@ Configurar un sistema Windows en máquina virtual con **doble arranque (dual boo
    * Selecciona la partición de **30 GB** creada anteriormente.
    * Si aparece la partición con nombre, mejor; si no, identifica por tamaño.
 6. Completa la instalación.
-7. Crea el usuario solicitado por el profesor (por ejemplo: segundo apellido).
+7. Crea el usuario con tu segundo apellido.
 
  **Capturas obligatorias**
 
@@ -153,7 +153,7 @@ Configurar un sistema Windows en máquina virtual con **doble arranque (dual boo
 
 # PARTE B – CMD (guía paso a paso)
 
-> **Todo lo de esta parte se hace en CMD como administrador**, salvo que el profesor indique lo contrario.
+> **Todo lo de esta parte se hace en CMD como administrador**.
 
 ## B.1 Preparación
 
@@ -169,7 +169,7 @@ Configurar un sistema Windows en máquina virtual con **doble arranque (dual boo
 
 Realiza cada apartado y tras completarlo **haz una captura** donde se vea el comando y el resultado.
 
-1. Cambiar la fecha del sistema a una fecha indicada por el profesor.
+1. Cambiar la fecha del sistema al 31-12-2025, luego vuelve a la fecha actual.
 2. Cambiar la etiqueta del volumen C: al formato:
 
    * `WIN_APELLIDO`
@@ -177,7 +177,7 @@ Realiza cada apartado y tras completarlo **haz una captura** donde se vea el com
 4. Crear la siguiente estructura (directorios en mayúsculas, archivos en minúsculas) y escribir texto dentro de los ficheros:
 
    * `C:\SISTEMAS\DOS\MANUAL\manual.txt` (**ruta absoluta**)
-   * `EJERCICIOS\hoja1.txt` y `EJERCICIOS\hoja2.txt` (**ruta relativa**, dentro de donde indique el profesor)
+   * `EJERCICIOS\hoja1.txt` y `EJERCICIOS\hoja2.txt` (**ruta relativa**,dentro de MANUAL)
 5. Desde `SISTEMAS`, listar con **ruta absoluta** los elementos cuyo **tercer carácter sea “s”** y con cualquier extensión.
 6. Desde `SISTEMAS`, listar con **ruta relativa** los `.exe` en `WINDOWS\SYSTEM32`.
 7. Copiar todos los ficheros del directorio `EJERCICIOS` a `C:\` con **una sola orden**.
@@ -197,7 +197,7 @@ Realiza cada apartado y tras completarlo **haz una captura** donde se vea el com
 
 * `C:\Windows`
 * `C:\Windows\System32`
-  (debe hacerse en **4 comandos**: dos para crear y dos para añadir/concatenar, según indique el profesor)
+  (debe hacerse en **4 comandos**: dos para crear y dos para añadir/concatenar)
 
 21. Crear:
 
