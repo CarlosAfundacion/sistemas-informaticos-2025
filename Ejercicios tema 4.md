@@ -174,12 +174,12 @@ Realiza cada apartado y tras completarlo **haz una captura** donde se vea el com
 
    * `WIN_APELLIDO`
 3. Listar (incluyendo subdirectorios de C:) todos los archivos/directorios cuyo nombre empiece por `w`.
-4. Crear la siguiente estructura (directorios en mayúsculas, archivos en minúsculas) y escribir texto dentro de los ficheros:
+4. Crear la siguiente estructura (directorios en mayúsculas, archivos en minúsculas) y escribir texto dentro de los ficheros: **Los archivos se crearan con `echo texto que quieras poner > nombre de archivo`** Los directorios con mkdir
 
-   * `C:\SISTEMAS\DOS\MANUAL\manual.txt` (**ruta absoluta**)
+   * `C:\SISTEMAS\DOS\MANUAL\manual.txt` (**ruta absoluta**) 
    * `EJERCICIOS\hoja1.txt` y `EJERCICIOS\hoja2.txt` (**ruta relativa**,dentro de MANUAL)
-5. Desde `SISTEMAS`, listar con **ruta absoluta** los elementos cuyo **tercer carácter sea “s”** y con cualquier extensión.
-6. Desde `SISTEMAS`, listar con **ruta relativa** los `.exe` en `WINDOWS\SYSTEM32`.
+5. Desde `SISTEMAS`, listar con **ruta absoluta** los elementos cuyo **tercer carácter sea “s”** y con cualquier extensión DE `WINDOWS\SYSTEM32`
+6. Desde `C:\WINDOWS\SYSTEM32`, listar con **ruta relativa** los `.exe`.
 7. Copiar todos los ficheros del directorio `EJERCICIOS` a `C:\` con **una sola orden**.
 8. Crear `C:\PRACTICA2` y copiar `LABEL.EXE` desde `SYSTEM32` a esa carpeta renombrándolo como `ETIQUETA.EXE` (en **dos comandos**).
 9. Copiar todos los archivos de `EJERCICIOS` a `PRACTICA2` con **una sola orden**.
@@ -187,7 +187,7 @@ Realiza cada apartado y tras completarlo **haz una captura** donde se vea el com
 11. Renombrar (ruta absoluta) `hoja1.sol` a `hoja.dat`.
 12. Copiar el directorio `SISTEMAS` a `CopySist` (incluyendo subdirectorios) con una orden.
 13. Cambiar a tu carpeta de usuario usando ruta absoluta.
-14. Sin cambiar de carpeta, copiar (ruta relativa) solo los archivos de `C:\Windows` a `CopySist` (sin subcarpetas).
+14. Sin cambiar de carpeta, copiar  solo los archivos de `C:\Windows` a `CopySist`(ruta relativa y sin subcarpetas).
 15. Sin cambiar de carpeta, borrar `CopySist` de forma recursiva.
 16. Poner atributos **Oculto** y **Sistema** a `hoja.dat`, ejecutar `dir` y después dejarlo como estaba.
 17. Crear desde `DOS` un archivo nuevo `hoja.txt` usando redirección.
