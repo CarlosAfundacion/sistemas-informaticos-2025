@@ -536,6 +536,16 @@ Comprobar:
 * attrib C:\ruta\a.txt
 * dir /a
 
+
+
+### 11.7 Mostrar contenido de un archivo
+
+El comando `type` nos permite mostrar lo que contiene un fichero
+
+Ejemplo:
+
+* type ejemplo.txt
+
 ---
 
 ## 12. Redirecciones, tuberías y concatenación
