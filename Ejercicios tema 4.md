@@ -191,7 +191,7 @@ Realiza cada apartado y tras completarlo **haz una captura** donde se vea el com
 15. Sin cambiar de carpeta, borrar `CopySist` de forma recursiva.
 16. Poner atributos **Oculto** y **Sistema** a `hoja.dat`, ejecutar `dir` y después dejarlo como estaba.
 17. Crear desde `DOS` un archivo nuevo `hoja.txt` usando redirección.
-18. Mostrar contenido de `hoja.dat` y `hoja.txt`.
+18. Mostrar contenido de `hoja.dat` y `hoja.txt`. Para ello usa el comando `type`
 19. Añadir el contenido de `hoja.txt` al final de `hoja.dat` sin borrar lo anterior.
 20. Generar `comandos.txt` con la lista de ejecutables (`.exe` y `.com`) de:
 
