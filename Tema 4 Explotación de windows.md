@@ -538,7 +538,7 @@ Comprobar:
 
 ---
 
-## 12. Redirecciones y tuberías
+## 12. Redirecciones, tuberías y concatenación
 
 ### 12.1 Redirección
 
@@ -565,6 +565,19 @@ Ejemplos:
 * dir /s | more
 * dir /s | find "informe"
 * dir /b | sort
+
+### 12.2 Concatenación
+
+* & permite ejecutar dos comandos seguidos en la línea de comandos, independientemente de que el primero de ellos funcione
+* && permite ejecutar dos comandos seguidos. El segundo de ellos solo se hará si el primero no da error
+
+Ejemplos:
+
+* mkdir C:\prueba & copy C:\Windows\*.exe C:\prueba
+* mkdir C:\prueba && copy C:\Windows\*.log C:\prueba
+
+  Si ejecutamos estos comandos seguidos los .log no se copiarían porque al tratar de crear prueba, como ya existe, daría error.
+
 
 ---
 
