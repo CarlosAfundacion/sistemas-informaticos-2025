@@ -19,7 +19,13 @@ Crear una partición de 5 GB y formatearla en NTFS para poder gestionar permisos
 
    * Pulsa `Win + R`, escribe `diskmgmt.msc` y pulsa Enter.
 2. Localiza **espacio sin asignar**:
+   * Si tu sistema consta de 4 particones, una de ellas de recuperación (aproximadamente 522 MB) haz los siguientes pasos:
 
+     - Pulsa WIN + R, teclea diskpart y pulsa ejecutar
+     - Teclea SELECT DISK 0
+     - Teclea LIST PARTITION
+     - Selecciona la partición de recuperación con SELECT PARTITION y el número de esa partición
+     - Teclea DELETE PARTITION OVERRIDE y salta al paso 3.
    * Si no hay espacio sin asignar, selecciona la unidad, pulsa el botón derecho del ratón y dale a reducir volumen. En el recuadro de Tamaño del espacio que desea reducir, en MB escribe 5120. Pulsa en reducir.
 3. Crea un volumen nuevo:
 
