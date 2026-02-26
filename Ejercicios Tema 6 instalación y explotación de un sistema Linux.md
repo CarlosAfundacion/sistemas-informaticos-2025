@@ -87,6 +87,19 @@ sudo apt update
 sudo apt install build-essential dkms linux-headers-amd64
 ```
 
+Si te falla el comando anterior haz lo siguiente:
+
+* Escribe `su` en la terminal e introduce la contraseña de root.
+* Usa el comando `nano /etc/apt/sources.list`
+* Comenta la línea de cd con `#`
+* Añade las siguientes líneas al archivo y después pulsa Ctrl + o, ENTER, Ctrl + x:
+
+```
+deb http://deb.debian.org/debian trixie main contrib non-free non-free-firmware
+deb http://deb.debian.org/debian trixie-updates main contrib non-free non-free-firmware
+deb http://security.debian.org/debian-security trixie-security main contrib non-free non-free-firmware
+```
+
 3. Ejecutar el instalador `VBoxLinuxAdditions.run` como root.
 4. Reiniciar el sistema.
 
