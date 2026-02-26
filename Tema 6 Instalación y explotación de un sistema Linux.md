@@ -41,7 +41,7 @@ También es relevante entender que otros sistemas conocidos (por ejemplo macOS) 
 
 ### 2.1. ¿Qué es una distribución?
 
-Una distribución GNU/Linux es una “forma empaquetada” de entregar un sistema GNU/Linux listo para instalar. Consta de dos partes principales (tal como aparece en el material): 
+Una distribución GNU/Linux es una “forma empaquetada” de entregar un sistema GNU/Linux listo para instalar. Consta de dos partes principales:
 
 1. **Kernel**: el núcleo que gestiona CPU, memoria, procesos, dispositivos y sistema de archivos.
 2. **Software que acompaña**: instalador, gestor de paquetes, herramientas de administración, entorno gráfico, aplicaciones, etc.
@@ -62,7 +62,7 @@ Por eso hay muchísimas distribuciones: cambian el objetivo y el público.
 
 ### 2.3. Familias principales de distribuciones
 
-En el material se mencionan tres “raíces” históricas importantes: **Red Hat**, **Debian** y **Slackware**. 
+Hay “raíces” históricas importantes: **Red Hat**, **Debian** y **Slackware**. 
 En la práctica, muchas distribuciones actuales derivan de Debian o de Red Hat.
 
 **Debian** es especialmente relevante porque:
@@ -95,7 +95,7 @@ Conviene distinguir:
 * **Gestor de ventanas**: controla colocación, tamaño, bordes, botones de minimizar/maximizar, etc.
 * **Entorno de escritorio (Desktop Environment)**: incluye gestor de ventanas + paneles + menú + configuración + aplicaciones integradas.
 
-Ejemplos típicos (mencionados en el material): **GNOME**, **KDE**, **XFCE**. 
+Ejemplos típicos: **GNOME**, **KDE**, **XFCE**. 
 
 ### 3.3. Elección para una máquina virtual
 
@@ -228,9 +228,9 @@ Ideas clave:
 * En equipos modernos a veces se usa swapfile en lugar de partición.
 * En una VM con poca RAM puede ser útil.
 
-En el material se sugiere a veces swap del doble de RAM; hoy no siempre es necesario, pero como concepto didáctico es correcto: “swap ayuda cuando falta RAM”. 
+Usualmente se sugería usar el swap del doble de RAM; hoy no siempre es necesario, pero como concepto didáctico es correcto: “swap ayuda cuando falta RAM”. 
 
-### 5.6. Selección de software (lo que significa realmente)
+### 5.6. Selección de software 
 
 Aquí se elige qué “tipo de sistema” se instala:
 
@@ -275,9 +275,7 @@ La razón técnica: algunas partes se integran como módulos del kernel, y neces
 
 ## 7. Primeros pasos: estructura del sistema de archivos
 
-### 7.1. Diferencias clave con Windows (explicadas)
-
-El material aporta comparativas que conviene entender bien: 
+### 7.1. Diferencias clave con Windows
 
 1. **Un único árbol de directorios**
 
@@ -301,7 +299,7 @@ El material aporta comparativas que conviene entender bien:
 
 ### 7.2. Directorios principales (qué son y para qué sirven)
 
-Listado esencial (muy parecido al del material, adaptado a Debian): 
+Listado esencial: 
 
 * **/bin**: comandos esenciales para el arranque y funcionamiento mínimo (en sistemas modernos parte se integra con `/usr/bin`, pero el concepto “comandos básicos” se mantiene).
 * **/usr/bin**: gran parte de comandos y programas de usuario.
@@ -431,11 +429,11 @@ Cada archivo tiene:
 * grupo,
 * permisos.
 
-Si creas archivos como root dentro de tu HOME, luego tu usuario normal puede no poder modificarlos, generando problemas de trabajo. Este ejemplo aparece en el material y es didácticamente muy bueno: crear carpetas como root hace que sean de root. 
+Si creas archivos como root dentro de tu HOME, luego tu usuario normal puede no poder modificarlos, generando problemas de trabajo. Crear carpetas como root hace que sean de root. 
 
 ---
 
-## 11. Comandos básicos del sistema (con explicación)
+## 11. Comandos básicos del sistema 
 
 ### 11.1. Comandos generales
 
@@ -464,7 +462,7 @@ Comandos:
 ### 11.3. Listado con `ls` (entender de verdad el resultado)
 
 `ls` lista contenido.
-Opciones relevantes (del material): 
+Opciones relevantes: 
 
 * `-l` (long): formato largo (permisos, propietario, tamaño, fecha…)
 * `-a`: incluye ocultos
@@ -512,7 +510,7 @@ Interpretación:
 
 ### 11.5. `type` en Linux (no es como Windows)
 
-En Linux, `type comando` indica dónde está el ejecutable o qué es exactamente ese comando (si es alias, builtin del shell, etc.). Ejemplo del material: `type touch` muestra que está en `/usr/bin/touch`. 
+En Linux, `type comando` indica dónde está el ejecutable o qué es exactamente ese comando.  `type touch` muestra que está en `/usr/bin/touch`. 
 
 ---
 
@@ -586,15 +584,15 @@ En un nivel inicial es suficiente con:
 
 ### 13.4. Instalación sin gestor (concepto)
 
-Se puede instalar un `.deb` manualmente con `dpkg -i`, pero esto no resuelve dependencias de forma cómoda. Por eso se prefiere APT. El material lo explica como alternativa y conviene que el alumnado entienda “por qué se evita”. 
+Se puede instalar un `.deb` manualmente con `dpkg -i`, pero esto no resuelve dependencias de forma cómoda. Por eso se prefiere APT. 
 
 ### 13.5. Instalación desde código fuente (solo como idea)
 
-Compilar desde código fuente (`./configure`, `make`, `make install`) existe, pero es un nivel más avanzado. En un temario inicial se menciona como posibilidad, explicando que:
+Compilar desde código fuente (`./configure`, `make`, `make install`) existe, pero es un nivel más avanzado. 
 
 * requiere herramientas de compilación,
 * puede complicar el mantenimiento,
-* y no se integra tan bien con actualizaciones como APT. 
+* no se integra tan bien con actualizaciones como APT. 
 
 ---
 
