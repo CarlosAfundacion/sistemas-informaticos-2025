@@ -65,8 +65,8 @@ En la selección de software, marcar únicamente:
 
 ### Capturas obligatorias 2, 3 y 4
 
-2. Pantalla donde se ve el tipo de particionado seleccionado.
-3. Pantalla de creación del usuario.
+2. Pantalla de creación del usuario.
+3. Pantalla donde se ve el tipo de particionado seleccionado.
 4. Escritorio funcionando tras el primer inicio de sesión.
 
 ---
@@ -82,14 +82,11 @@ En Debian:
 1. Abrir una terminal.
 2. Ejecutar:
 
-```
-sudo apt update
-sudo apt install build-essential dkms linux-headers-amd64
-```
 
-Si te falla el comando anterior haz lo siguiente:
+
 
 * Escribe `su` en la terminal e introduce la contraseña de root.
+* Escribe el comando `usermod -aG sudo nombre_usuario` 
 * Usa el comando `nano /etc/apt/sources.list`
 * Comenta la línea de cd con `#`
 * Añade las siguientes líneas al archivo y después pulsa Ctrl + o, ENTER, Ctrl + x:
@@ -99,6 +96,12 @@ deb http://deb.debian.org/debian trixie main contrib non-free non-free-firmware
 deb http://deb.debian.org/debian trixie-updates main contrib non-free non-free-firmware
 deb http://security.debian.org/debian-security trixie-security main contrib non-free non-free-firmware
 ```
+* Desde la consola ejecuta los siguientes  comandos:
+
+ ```
+sudo apt update
+sudo apt install build-essential dkms linux-headers-amd64
+```
 
 3. Ejecutar el instalador `VBoxLinuxAdditions.run` como root.
 4. Reiniciar el sistema.
@@ -106,7 +109,7 @@ deb http://security.debian.org/debian-security trixie-security main contrib non-
 ### Capturas obligatorias 5 y 6
 
 5. Instalación de dependencias en la terminal.
-6. Escritorio a pantalla completa tras reiniciar (demostrando que funciona).
+6. Escritorio a pantalla completa tras reiniciar (Pincha en Dispositivos o Devices en la ventana de la máquina virtual y tiene que aparecer seleccionable la opción de actualizar las GuestAdditions).
 
 ---
 
