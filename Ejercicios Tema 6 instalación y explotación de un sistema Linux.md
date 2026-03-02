@@ -85,7 +85,7 @@ En Debian:
 
 
 
-* Escribe `su` en la terminal e introduce la contraseña de root.
+* Escribe `su -` en la terminal e introduce la contraseña de root.
 * Escribe el comando `usermod -aG sudo nombre_usuario` 
 * Usa el comando `nano /etc/apt/sources.list`
 * Comenta la línea de cd con `#`
