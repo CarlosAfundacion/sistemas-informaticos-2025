@@ -629,7 +629,7 @@ Listar los archivos y carpetas que contiene.
 2. Lista su contenido, por ejemplo:
 
 ```bash
-ls /media/cdrom
+sudo ls /media/cdrom
 ```
 
 o la ruta que corresponda en tu sistema.
