@@ -148,7 +148,7 @@ Debes crear estos usuarios:
 | ------- | --------------- |
 | juana   | juana           |
 | luis    | informatico     |
-| orena   | informatico     |
+| Lorena   | informatico     |
 | maria   | vendedor        |
 | angel   | vendedor        |
 
@@ -170,7 +170,7 @@ Opciones que vas a usar:
 ```bash
 sudo useradd -m -g juana juana
 sudo useradd -m -g informatico luis
-sudo useradd -m -g informatico orena
+sudo useradd -m -g informatico Lorena
 sudo useradd -m -g vendedor maria
 sudo useradd -m -g vendedor angel
 ```
@@ -180,7 +180,7 @@ sudo useradd -m -g vendedor angel
 ```bash
 sudo passwd juana
 sudo passwd luis
-sudo passwd orena
+sudo passwd Lorena
 sudo passwd maria
 sudo passwd angel
 ```
@@ -198,7 +198,7 @@ Muestra las líneas de los usuarios creados:
 ```bash
 cat /etc/passwd | grep juana
 cat /etc/passwd | grep luis
-cat /etc/passwd | grep orena
+cat /etc/passwd | grep Lorena
 cat /etc/passwd | grep maria
 cat /etc/passwd | grep angel
 ```
