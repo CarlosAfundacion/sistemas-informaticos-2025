@@ -1067,7 +1067,7 @@ Vas a ejecutar un proceso que genera salida continua y consume recursos.
 
 ### Qué se pide
 
-Lanzar `yes`, redirigir su salida a un archivo, comprobar consumo de CPU y tamaño del archivo.
+Lanzar `yes`, redirigir su salida a un archivo, comprobar consumo de CPU y tamaño del archivo.  **ACUÉRDATE DE FINALIZAR PRONTO EL PROCESO**
 
 ### Comandos utilizados
 
