@@ -1165,7 +1165,7 @@ sudo nice -n -15 yes
 3. Comprueba prioridades con:
 
 ```bash
-ps -o pid,ni,cmd
+ps -eo pid,ni,cmd
 ```
 
 ### Qué debes comprobar
@@ -1176,7 +1176,7 @@ Debes ver distintos valores de prioridad (`NI`).
 
 1. Proceso lanzado con `nice -n 15`.
 2. Proceso lanzado con `sudo nice -n -15`.
-3. Salida de `ps -o pid,ni,cmd`.
+3. Salida de `ps -eo pid,ni,cmd`.
 
 ---
 
@@ -1211,7 +1211,7 @@ renice 10 PID
 3. Comprueba el cambio con:
 
 ```bash
-ps -o pid,ni,cmd
+ps -eo pid,ni,cmd
 ```
 
 ### Qué debes comprobar
