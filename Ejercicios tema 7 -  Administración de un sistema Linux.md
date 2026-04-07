@@ -1028,10 +1028,10 @@ chmod +x infinito.sh
 ./infinito.sh
 ```
 
-5. Desde otra terminal, localizar `sleep`:
+5. Desde otra terminal, localizar `infinito`:
 
 ```bash
-ps aux | grep sleep
+ps aux | grep infinito
 ```
 
 6. Finalizar el script o sus procesos asociados.
