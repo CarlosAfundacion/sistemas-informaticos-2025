@@ -960,7 +960,7 @@ IIS no accede a las carpetas con tu cuenta de usuario. Usa una cuenta interna ll
 3. Nombre: `FTP_Empresa`. Ruta física: `C:\FTP`. Siguiente.
 4. Enlace: IP `192.168.1.10`, puerto `21`, sin SSL. Siguiente.
 5. Autenticación: marca **Básica** (desmarca **Anónima**).
-6. Autorización: **Usuarios especificados** → escribe `admin1`. Marca **Lectura** y **Escritura**.
+6. Autorización: **Usuarios especificados** → escribe  uno de tus usuarios del grupo Administración. Luego es el que usarás desde `cliente2` para conectar. Marca **Lectura** y **Escritura**.
 7. Finaliza.
 
 **C6.3** Pantalla de autenticación y autorización del asistente FTP.
@@ -1006,7 +1006,7 @@ cd %USERPROFILE%\Desktop
 ftp 192.168.1.10
 ```
 
-4. Introduce el usuario (`admin1`) y la contraseña cuando se soliciten.
+4. Introduce el usuario (El que usaste en la configuración del FTP de `cliente1`) y la contraseña cuando se soliciten.
 
    > **Si el usuario es rechazado:** recuerda que debe existir como cuenta local en `cliente1`. Verifica en `cliente1` con `lusrmgr.msc` que la cuenta existe y que la contraseña es correcta.
 
