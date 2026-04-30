@@ -1,7 +1,7 @@
 # TAREA 9 — Administración de Redes GNU/Linux
 
 **Módulo:** Sistemas Informáticos · 1º DAW  
-**Sistema:** Debian 12 (Bookworm)
+**Sistema:** Debian 13
 
 ---
 
@@ -20,10 +20,10 @@ Esta guía cubre la instalación completa desde cero. Si ya tienes una máquina 
 | Recurso | Mínimo recomendado | Observaciones |
 |---|---|---|
 | RAM asignada a la VM | 1024 MB | Con 512 MB funciona, pero puede ir lento durante la instalación de paquetes. |
-| Disco duro virtual | 8 GB dinámico | El sistema base ocupa unos 2-3 GB. El resto queda libre para los servicios de la práctica. |
+| Disco duro virtual | 8 GB dinámico (Podrían ser 5 si estás muy limitado) | El sistema base ocupa unos 2-3 GB. El resto queda libre para los servicios de la práctica. |
 | Procesadores virtuales | 1 | No es necesario más de uno para esta práctica. |
 | Adaptadores de red | 2 | Se configuran después de la instalación: uno NAT y uno de red interna. |
-| ISO de Debian | Versión estable actual (Bookworm 12) | Descárgala de https://www.debian.org → Getting Debian → CD/DVD Images → netinst 64 bits (≈ 400 MB). |
+| ISO de Debian | Versión estable actual  |Si no lo tienes ya descargado. Descárgala de https://www.debian.org → Getting Debian → CD/DVD Images → netinst 64 bits (≈ 400 MB). |
 
 > **Imagen netinst vs imagen completa:** la netinst descarga los paquetes durante la instalación y necesita conexión a Internet. Si el aula no tiene conexión fiable, usa la imagen DVD completa (≈ 4 GB), que incluye todos los paquetes sin necesidad de descargar nada durante el proceso.
 
@@ -49,7 +49,7 @@ Esta guía cubre la instalación completa desde cero. Si ya tienes una máquina 
 
 7. En la pantalla de disco duro virtual:
    - Selecciona **Crear un disco duro virtual ahora**.
-   - **Tamaño:** `20 GB` · **Tipo:** VDI · **Almacenamiento:** Reservado dinámicamente.
+   - **Tamaño:** `8 GB` (Podrían ser 5) · **Tipo:** VDI · **Almacenamiento:** Reservado dinámicamente.
 
 8. Haz clic en **Siguiente** y después en **Terminar**.
 
