@@ -5,7 +5,7 @@
 
 ---
 
-# Prerrequisito — Instalación de Debian en modo consola en VirtualBox
+# Prerrequisito — Instalación de Debian en modo consola en VirtualBox (NO ES NECESARIO HACER LAS CAPTURAS DE ESTA PARTE. Si ya las tienes echas 0,5 puntos más)
 
 ## Descripción general
 
