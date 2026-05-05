@@ -204,6 +204,11 @@ Asegúrate de que las siguientes opciones **no están marcadas**:
    su -
    ```
 
+1.1 Instala sudo:
+   ```bash
+   apt-get install sudo
+   ```
+
 2. Añade tu usuario al grupo sudo (sustituye `alumno` por tu nombre de usuario):
    ```bash
    usermod -aG sudo alumno
