@@ -1,5 +1,3 @@
----
-
 # Tema 9 Resumen — Administración de redes en Linux
 
 # 1. Introducción a las redes en Linux
