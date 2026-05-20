@@ -1,4 +1,4 @@
-# Tema 8 — Administración de una red Windows
+# Tema 8 Resumen — Administración de una red Windows
 
 # 1. Introducción a las redes Windows
 
